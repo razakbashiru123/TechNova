@@ -1,0 +1,213 @@
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Background */
+body {
+    background: url('1.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+/* Main Container */
+.main {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.55);
+    padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Menu */
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    margin: 0 12px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover {
+    color: #00c3ff;
+}
+
+/* Search Box */
+.seach {
+    display: flex;
+    align-items: center;
+}
+
+.srch {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn {
+    padding: 8px 15px;
+    background: #00c3ff;
+    border: none;
+    margin-left: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #008ebd;
+}
+
+/* Main Content Section */
+.content {
+    color: white;
+    max-width: 500px;
+    margin: 50px 30px;
+}
+
+.content h1 {
+    font-size: 55px;
+    line-height: 60px;
+}
+
+.content span {
+    color: #00c3ff;
+}
+
+/* Join button */
+.cn {
+    padding: 10px 20px;
+    border: none;
+    background: #00c3ff;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cn a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cn:hover {
+    background: #008ebd;
+}
+
+/* Message Form */
+.forms {
+    width: 320px;
+    background: #fff;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px
+}
+
+.forms h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.forms input {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.btnn {
+    width: 100%;
+    padding: 10px;
+    background: #00c3ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btnn a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btnn:hover {
+    background: #008ebd;
+}
+
+.Link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Link a {
+    color: #00c3ff;
+    text-decoration: none;
+}
+
+/* Social Icon */
+.forms .icon {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forms .icon a ion-icon {
+    font-size: 28px;
+    color: #00c3ff;
+}
+
+/* Mobile Responsive */
+@media(max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .content h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .forms {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
